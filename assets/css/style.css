@@ -24,8 +24,12 @@ h1 {
 }
 
 h2 {
-  margin: 5% 10%;
+  margin: 2% 10%;
   font-size: 250%;
+}
+
+h3 {
+  font-size: 150%;
 }
 
 nav ul {
@@ -86,16 +90,22 @@ article ul + p {
   border: 4px solid #b9c6ae;
 }
 
+.next-to {
+  display: flex;
+  justify-content: space-around;
+}
+
 footer {
   display: flex;
   justify-content: center;
   padding: 2%;
   background-color: var(--dark);
   color: var(--light);
+  font-size: 2em;
 }
 
 .profile-pic {
-  height: 20em;
+  height: 15em;
 }
 
 .about-me {
@@ -107,7 +117,7 @@ footer {
 .work {
   flex: 1;
   background-color: var(--light);
-  padding: 50px;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -144,6 +154,10 @@ footer {
 
 .center-text {
   flex-direction: column;
+  /* font-size: larger; */
+}
+
+.big-text {
   font-size: larger;
 }
 
@@ -153,5 +167,8 @@ footer {
   }
   main {
     max-width: 1200px;
+  }
+  .next-to {
+    flex-direction: column;
   }
 }
