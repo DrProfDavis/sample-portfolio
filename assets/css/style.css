@@ -1,6 +1,6 @@
 :root {
   /* declare a variable with `--` syntax */
-  --dark: #13293d;
+  --dark: #5432f0;
   --light: #fff;
 }
 
@@ -15,7 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
-  background-color: #13293d;
+  background-color: var(--dark);
   color: #fff;
 }
 
@@ -52,7 +52,7 @@ main {
 }
 
 article {
-  border-bottom: 1px solid #13293d;
+  border-bottom: 1px solid var(--dark);
 }
 
 article p {
@@ -73,11 +73,11 @@ article li {
 
 article ul li:nth-child(even) {
   background-color: #b9c6ae;
-  color: #13293d;
+  color: black;
 }
 
 article ul + p {
-  background-color: #13293d;
+  background-color: var(--dark);
   color: var(--light);
 }
 
@@ -90,7 +90,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 2%;
-  background-color: #13293d;
+  background-color: var(--dark);
   color: var(--light);
 }
 
