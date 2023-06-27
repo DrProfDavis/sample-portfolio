@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  margin: 2% 0;
+  margin: 5% 10%;
   font-size: 250%;
 }
 
@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #fff;
+  color: var(--light);
 }
 
 main {
@@ -64,6 +64,7 @@ article ul {
   margin-left: 5%;
   font-size: 110%;
   list-style: circle;
+  padding-left: 20px;
 }
 
 article li {
@@ -77,10 +78,10 @@ article ul li:nth-child(even) {
 
 article ul + p {
   background-color: #13293d;
-  color: #fff;
+  color: var(--light);
 }
 
-article div > * {
+.square-green-border {
   padding: 20px;
   border: 4px solid #b9c6ae;
 }
@@ -90,7 +91,17 @@ footer {
   justify-content: center;
   padding: 2%;
   background-color: #13293d;
-  color: #fff;
+  color: var(--light);
+}
+
+.profile-pic {
+  height: 20em;
+}
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .work {
@@ -100,6 +111,11 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.big-box {
+  max-height: 400px;
+  overflow-y: hidden;
 }
 
 .card {
@@ -126,11 +142,15 @@ footer {
   width: 100%;
 }
 
+.center-text {
+  flex-direction: column;
+  font-size: larger;
+}
+
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
   }
-
   main {
     max-width: 1200px;
   }
