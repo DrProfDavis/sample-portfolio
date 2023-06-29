@@ -15,7 +15,7 @@ Module Two Challenge
 
 ## Link
 
-[Sample portfolio website](https://drprofdavis.github.io/horiseon-refactor-challenge/)
+[Sample portfolio website](https://drprofdavis.github.io/sample-portfolio/)
 [Sample portfolio GitHub](https://github.com/DrProfDavis/sample-portfolio)
 
 ## Credits
